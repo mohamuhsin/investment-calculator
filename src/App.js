@@ -1,6 +1,6 @@
-import InvestHeader from "./components/InvestHeader";
-import InvestTable from "./components/InvestTable";
-import AddInvest from "./components/AddInvest";
+import Header from "./components/Header/Header";
+import ResultsTable from "./components/ResultsTable/ResultsTable";
+import UserInput from "./components/AddUser/UserInput";
 
 function App() {
   const calculateHandler = (userInput) => {
@@ -32,12 +32,13 @@ function App() {
 
   return (
     <div>
-      <InvestHeader />
+      <Header />
 
       {/* Todo: Show below table conditionally (only once result data is available) */}
       {/* Show fallback text if no data is available */}
+      <UserInput />
 
-      <InvestTable />
+      <ResultsTable />
     </div>
   );
 }
