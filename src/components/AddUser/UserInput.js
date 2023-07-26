@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
 const UserInput = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     console.log("SUBMIT");
   };
+
+  const [] = useState({});
+  const [] = useState({});
+  const [] = useState({});
+  const [] = useState({});
 
   const resetHandler = () => {
     console.log("RESET");
