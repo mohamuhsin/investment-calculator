@@ -1,4 +1,10 @@
 import React, { useState } from "react";
+const initialUserInput = {
+  "current-savings": 10000,
+  "yearly-contribution": 1200,
+  "expected-return": 7,
+  duration: 10,
+};
 
 const UserInput = () => {
   const submitHandler = (event) => {
@@ -6,16 +12,24 @@ const UserInput = () => {
     console.log("SUBMIT");
   };
 
-  const [] = useState({});
+  const [userInput, setUserInput] = useState(initialUserInput);
+
   const [] = useState({});
   const [] = useState({});
   const [] = useState({});
 
   const resetHandler = () => {
-    console.log("RESET");
+    setUserInput(initialUserInput);
   };
 
-  const inputChangeHandler = (input, value) => {};
+  const inputChangeHandler = (input, value) => {
+    setUserInput((prevInput) => {
+      return {
+        ...prevInput,
+        [input]: value,
+      };
+    });
+  };
 
   return (
     <form onSubmit={submitHandler} className="form">
@@ -26,6 +40,7 @@ const UserInput = () => {
             onChange={(event) =>
               inputChangeHandler("current-savings", event.target.value)
             }
+            value={userInput["current-savings"]}
             type="number"
             id="current-savings"
           />
@@ -36,6 +51,7 @@ const UserInput = () => {
             onChange={(event) =>
               inputChangeHandler("yearly-contribution", event.target.value)
             }
+            value={userInput["yearly-contribution"]}
             type="number"
             id="yearly-contribution"
           />
@@ -50,6 +66,7 @@ const UserInput = () => {
             onChange={(event) =>
               inputChangeHandler("expected-return", event.target.value)
             }
+            value={userInput["expected-return"]}
             type="number"
             id="expected-return"
           />
@@ -60,6 +77,7 @@ const UserInput = () => {
             onChange={(event) =>
               inputChangeHandler("expected-return", event.target.value)
             }
+            value={userInput["duration"]}
             type="number"
             id="duration"
           />
