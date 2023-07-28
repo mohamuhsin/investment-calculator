@@ -9,7 +9,7 @@ const initialUserInput = {
 const UserInput = () => {
   const submitHandler = (event) => {
     event.preventDefault();
-    console.log("SUBMIT");
+    propsonCalculate(userInput);
   };
 
   const [userInput, setUserInput] = useState(initialUserInput);
