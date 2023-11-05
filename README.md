@@ -7,4 +7,4 @@ Demonstrating the use of Components, Props and states in React.
 Demonstrating the use of Components, Props and states in React.
 Demonstrating the use of Components, Props and states in React.
 Demonstrating the use of Components, Props and states in React.
-Demonstrating the use of Compone
+Demonstrating the use of Compo
