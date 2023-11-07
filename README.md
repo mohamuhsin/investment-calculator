@@ -2,4 +2,4 @@
 
 Demonstrating the use of Components, Props and states in React.
 
-Demonstrating the use of Components, Props 
+Demonstrating the use of Components, Props
