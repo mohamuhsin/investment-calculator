@@ -2,4 +2,4 @@
 
 Demonstrating the use of Components, Props and states in React.
 
-Demonstr
+Demonst
