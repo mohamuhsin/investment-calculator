@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use of Componen
+Demonstrating the use of Compone
