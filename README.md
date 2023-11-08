@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use of Com
+Demonstrating the use of Co
