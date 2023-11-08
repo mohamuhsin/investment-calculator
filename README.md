@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use of Components, Prop
+Demonstrating the use of Components, Pro
