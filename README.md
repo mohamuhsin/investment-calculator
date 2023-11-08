@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use of Compo
+Demonstrating the use of Comp
