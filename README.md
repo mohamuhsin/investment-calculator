@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use of Components, Props and states in R
+Demonstrating the use of Components, Props and states in 
