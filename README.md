@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use of Components, P
+Demonstrating the use of Components, 
