@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the use o
+Demonstrating the use 
