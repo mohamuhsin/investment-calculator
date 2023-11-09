@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the u
+Demonstrating the 
