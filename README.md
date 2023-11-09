@@ -1,3 +1,3 @@
 # Investment Calculator
 
-Demonstrating the us
+Demonstrating the u
