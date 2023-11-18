@@ -2,4 +2,4 @@
 
 Demonstrating the concept of components, jsx, props and state.
 
-Demonstrating the concept of components, jsx, props and stat
+Demonstrating the concept of components, jsx, props and st
