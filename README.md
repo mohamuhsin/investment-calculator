@@ -2,4 +2,4 @@
 
 Demonstrating the concept of components, jsx, props and state.
 
-Demon
+Dem
