@@ -1,1 +1,1 @@
-# Practicing react core concepts and best practices.
+# How To Build This App:
